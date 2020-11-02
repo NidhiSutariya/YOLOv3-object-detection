@@ -3,7 +3,6 @@ import argparse
 import sys
 import numpy as np
 import os
-from yolo_utils import *
 
 def getOutputNames(net):
 	layerNames = net.getLayerNames()
